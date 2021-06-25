@@ -16,7 +16,7 @@ tauri-build = { version = "1.0.0-beta.1" }
 [dependencies]
 serde_json = "1.0"
 serde = { version = "1.0", features = ["derive"] }
-tauri = { version = "1.0.0-beta.2", features = ["fs-path", "menu", "notification-all", "shell-execute", "system-tray"] }
+tauri = { git = "https://github.com/tauri-apps/tauri", branch = "fix/event-channel", features = ["fs-path", "menu", "notification-all", "shell-execute", "system-tray"] }
 
 [features]
 default = [ "custom-protocol" ]
