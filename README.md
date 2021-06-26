@@ -14,6 +14,7 @@ cargo install tauri-cli --version ^1.0.0-beta.2
 Then to install nodejs dependencies:
 ```
 > yarn
+```
 
 And finally to install rust dependencies and compile:
 ```
