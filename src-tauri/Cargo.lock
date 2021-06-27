@@ -2094,9 +2094,9 @@ dependencies = [
 
 [[package]]
 name = "pin-project-lite"
-version = "0.2.6"
+version = "0.2.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dc0e1f259c92177c30a4c9d177246edd0a3568b25756a977d0632cf8fa37e905"
+checksum = "8d31d11c69a6b52a174b42bdc0c30e5e11670f90788b2c471c31c1d17d449443"
 
 [[package]]
 name = "pin-utils"
@@ -2909,7 +2909,7 @@ dependencies = [
 [[package]]
 name = "tauri"
 version = "1.0.0-beta.2"
-source = "git+https://github.com/tauri-apps/tauri?branch=fix/event-channel#205e40ef851c58b8f268029662448aa796a30863"
+source = "git+https://github.com/tauri-apps/tauri?branch=dev#8c13344f8f97bc67b8fcde68ce14da438f7c66ba"
 dependencies = [
  "attohttpc",
  "bincode",
@@ -2936,7 +2936,7 @@ dependencies = [
  "tauri-macros",
  "tauri-runtime",
  "tauri-runtime-wry",
- "tauri-utils 1.0.0-beta.1 (git+https://github.com/tauri-apps/tauri?branch=fix/event-channel)",
+ "tauri-utils 1.0.0-beta.1 (git+https://github.com/tauri-apps/tauri?branch=dev)",
  "tempfile",
  "thiserror",
  "tokio",
@@ -2961,14 +2961,14 @@ dependencies = [
 [[package]]
 name = "tauri-codegen"
 version = "1.0.0-beta.1"
-source = "git+https://github.com/tauri-apps/tauri?branch=fix/event-channel#205e40ef851c58b8f268029662448aa796a30863"
+source = "git+https://github.com/tauri-apps/tauri?branch=dev#8c13344f8f97bc67b8fcde68ce14da438f7c66ba"
 dependencies = [
  "blake3",
  "proc-macro2",
  "quote 1.0.9",
  "serde",
  "serde_json",
- "tauri-utils 1.0.0-beta.1 (git+https://github.com/tauri-apps/tauri?branch=fix/event-channel)",
+ "tauri-utils 1.0.0-beta.1 (git+https://github.com/tauri-apps/tauri?branch=dev)",
  "thiserror",
  "walkdir",
  "zstd",
@@ -2977,7 +2977,7 @@ dependencies = [
 [[package]]
 name = "tauri-macros"
 version = "1.0.0-beta.2"
-source = "git+https://github.com/tauri-apps/tauri?branch=fix/event-channel#205e40ef851c58b8f268029662448aa796a30863"
+source = "git+https://github.com/tauri-apps/tauri?branch=dev#8c13344f8f97bc67b8fcde68ce14da438f7c66ba"
 dependencies = [
  "proc-macro2",
  "quote 1.0.9",
@@ -2988,11 +2988,11 @@ dependencies = [
 [[package]]
 name = "tauri-runtime"
 version = "0.1.2"
-source = "git+https://github.com/tauri-apps/tauri?branch=fix/event-channel#205e40ef851c58b8f268029662448aa796a30863"
+source = "git+https://github.com/tauri-apps/tauri?branch=dev#8c13344f8f97bc67b8fcde68ce14da438f7c66ba"
 dependencies = [
  "serde",
  "serde_json",
- "tauri-utils 1.0.0-beta.1 (git+https://github.com/tauri-apps/tauri?branch=fix/event-channel)",
+ "tauri-utils 1.0.0-beta.1 (git+https://github.com/tauri-apps/tauri?branch=dev)",
  "thiserror",
  "uuid",
  "winapi",
@@ -3001,13 +3001,13 @@ dependencies = [
 [[package]]
 name = "tauri-runtime-wry"
 version = "0.1.2"
-source = "git+https://github.com/tauri-apps/tauri?branch=fix/event-channel#205e40ef851c58b8f268029662448aa796a30863"
+source = "git+https://github.com/tauri-apps/tauri?branch=dev#8c13344f8f97bc67b8fcde68ce14da438f7c66ba"
 dependencies = [
  "ico",
  "infer",
  "png 0.16.8",
  "tauri-runtime",
- "tauri-utils 1.0.0-beta.1 (git+https://github.com/tauri-apps/tauri?branch=fix/event-channel)",
+ "tauri-utils 1.0.0-beta.1 (git+https://github.com/tauri-apps/tauri?branch=dev)",
  "uuid",
  "winapi",
  "wry",
@@ -3035,7 +3035,7 @@ dependencies = [
 [[package]]
 name = "tauri-utils"
 version = "1.0.0-beta.1"
-source = "git+https://github.com/tauri-apps/tauri?branch=fix/event-channel#205e40ef851c58b8f268029662448aa796a30863"
+source = "git+https://github.com/tauri-apps/tauri?branch=dev#8c13344f8f97bc67b8fcde68ce14da438f7c66ba"
 dependencies = [
  "heck",
  "html5ever",
