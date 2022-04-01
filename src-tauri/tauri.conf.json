@@ -37,8 +37,8 @@
       "notification": {
         "all": true
       },
-      "fs": {
-        "path": true
+      "path": {
+        "all": true
       }
     },
     "windows": [
