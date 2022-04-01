@@ -2,21 +2,22 @@
 name = "app"
 version = "0.1.0"
 description = "A Tauri App"
-authors = ["you"]
-license = ""
-repository = ""
+authors = ["Lucas Fernog", "Thad Guidry"]
+license = "Apache-2.0"
+repository = "https://github.com/OpenRefine/openrefine-tauri"
 default-run = "app"
-edition = "2018"
+edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [build-dependencies]
-tauri-build = { version = "1.0.0-beta.1" }
+tauri-build = { version = "1.0.0-rc.5", features = [] }
 
 [dependencies]
 serde_json = "1.0"
 serde = { version = "1.0", features = ["derive"] }
-tauri = { git = "https://github.com/tauri-apps/tauri", branch = "dev", features = ["fs-path", "menu", "notification-all", "shell-execute", "system-tray"] }
+# tauri = { git = "https://github.com/tauri-apps/tauri", branch = "dev", features = ["fs-path", "menu", "notification-all", "shell-execute", "system-tray"] }
+tauri = {version = "1.0.0-rc.5", features = ["notification-all", "path-all", "shell-execute", "system-tray"] }
 
 [features]
 default = [ "custom-protocol" ]
