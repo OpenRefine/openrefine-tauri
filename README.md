@@ -2,13 +2,13 @@
 
 First, please follow all instructions to setup your dev environment as can be found here:
 
-> https://tauri.studio/en/docs/getting-started/intro
+> https://tauri.app/v1/guides/getting-started/prerequisites
 
 Our preference is to use cargo to run tauri, instead of yarn/npm, just because it is a bit faster.
 
 Once your rust toolchain is setup, please run:
 ```
-cargo install tauri-cli --version ^1.0.0-beta.2
+cargo install tauri-cli --version ^1.0.5
 ```
 
 Then to install nodejs dependencies:
